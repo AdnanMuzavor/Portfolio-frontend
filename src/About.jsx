@@ -1,14 +1,31 @@
 import React from "react";
 import img2 from "../src/Images/img3.webp";
 import Page from "./Page";
+import { NavLink } from "react-router-dom";
 import MySkills from "./MySkills";
+import {useEffect} from "react";
 function About() {
 
   // var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
   // var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   //   return new bootstrap.Tooltip(tooltipTriggerEl)
   // })
-
+useEffect(()=>{
+   const caller=async()=>{
+     try {
+       const getdata=await fetch("/api/contacts",{
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        }})
+       const data=await getdata.json();
+       console.log(data)
+     } catch (e) {
+       console.log(e)
+     }
+   }
+   caller();
+},[])
 
   return (
     <>
@@ -37,7 +54,15 @@ function About() {
             <div className="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-items-start flex-column"data-aos="fade-up-left">
              <h1 className="text-center">My Journey</h1>
              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga similique, expedita voluptate ducimus neque nobis quaerat aspernatur libero explicabo dicta corrupti, ratione hic blanditiis suscipit perspiciatis. Aut fugit iste molestias architecto voluptatibus error vitae voluptas, quis repellat laboriosam aliquid possimus placeat voluptatem velit sunt eum sint repellendus? Consequatur amet odio pariatur aperiam assumenda repellat, doloremque animi fugit atque quidem, perferendis consequuntur in natus. Maiores aliquam aperiam magni commodi quas sit ullam voluptatem at maxime praesentium sed quam alias deleniti, accusantium voluptatum rerum consequatur nam, cum nihil itaque totam minima, a debitis! Qui nesciunt illo sunt laboriosam ratione impedit provident quos.</p>
-             <button type="button" class="btn btn-outline-info"  data-toggle="tooltip" data-placement="right" title="check more info" >More Info About Me</button>
+             <div className="mt-3 btn-get-started text-center">
+                <NavLink
+                  to={`www.google.com`}
+                  className="btn ms-2 btn-get-started btn-danger"
+                >
+                  My projects
+                </NavLink>
+           
+              </div>
             </div>
           </div>
         </div>

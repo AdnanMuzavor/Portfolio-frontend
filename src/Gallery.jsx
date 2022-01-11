@@ -37,14 +37,14 @@ const ALLitems=category;
   console.log(category);
   return (
     <>
-      <section className="my-3 pt-5">
+      <section className="my-3 pt-5 ">
         <div className="text-center">
           <h1 className="display-4">My Project Gallery</h1>
           <hr className="w-25 mx-auto"></hr>
         </div>
 
 
-        <div className="my-4 mx-1 row d-flex jutify-content-center">
+        <div className="my-4 mx-1 row flexer">
           <FilterMenu catitems={catitems} FilterGallery={filterGallery} />
         </div>
 

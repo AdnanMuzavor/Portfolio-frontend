@@ -6,14 +6,18 @@ function Card(props) {
     <>
       <div className="col-md-4  col-12 mx-auto cont" data-aos="zoom-in"> 
         <div class="card" >
-          <img src={props.img} class="card-img-top img-fluid" alt="..." />
+          <img src={props.img} class="img card-img-top img-fluid" alt="..." />
           <div class="card-body">
             <h5 class="card-title font-weight-bold">{props.title}</h5>
+          {
+            window.innerWidth>360?
             <p class="card-text ">
-              {props.content}
-            </p>
+            {props.content.slice(0,100)}
+          </p>:null
+          }
+           
            <div className="btn-cont text-center d-flex justify-content-center">
-            <a to={props.link} class="card-btn btn btn-primary anima">
+            <a to={props.link} className={`card-btn btn btn-primary ${window.innerWidth>360?" anima":""}`}>
             {props.btn}
             </a>
             <a to={props.link} class="card-btn btn btn-primary git">

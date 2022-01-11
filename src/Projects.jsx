@@ -156,36 +156,37 @@ const torerender=()=>{
         <hr className="w-25 mx-auto"></hr>
         <div className="my-4 row">
           <div className=" col-lg-4 col-md-4 col-4 " data-aos="zoom-out">
-            {/* <i className="fas fa-mug-hot fa-3x mug d-flex justify-content-center"></i> */}
-            <i class="fa fa-th fa-3x  mug d-flex justify-content-center" aria-hidden="true"></i>
+            {/* <i className="fas fa-mug-hot fa-2x mug d-flex justify-content-center"></i> */}
+            <i class="fa fa-th fa-2x  mug d-flex justify-content-center" aria-hidden="true"></i>
             
-            <h1 className="counter  text-center " datatarget="9">
+            <h6 className="counter  text-center " datatarget="9">
               0
-            </h1>
+            </h6>
            
             <hr className="w-25 mx-auto"></hr>
-            <h2 className="text-center">APPS</h2>
+            <h5 className="text-center">APPS</h5>
             <hr className="w-25 mx-auto"></hr>
           </div>
 
           <div className=" col-lg-4 col-md-4 col-4 " data-aos="zoom-out">
-            <i className="fas fa-mug-hot fa-3x mug d-flex justify-content-center"></i>
-            <h1 className=" counter text-center" datatarget="4">
+            
+            <i className="fas fa-mug-hot fa-2x mug d-flex justify-content-center"></i>
+            <h6 className=" counter text-center" datatarget="4">
               0
-            </h1>
+            </h6>
             <hr className="w-25 mx-auto"></hr>
-            <h2 className="text-center">WEBSITES</h2>
+            <h5 className="text-center">WEBSITES</h5>
             <hr className="w-25 mx-auto"></hr>
           </div>
 
           <div className=" col-lg-4 col-md-4 col-4 " data-aos="zoom-out">
-            {/* <i className="fas fa-mug-hot fa-3x mug d-flex justify-content-center"></i> */}
-            <i class="fa fa-thumbs-up fa-3x mug d-flex justify-content-center" aria-hidden="true"></i>
-            <h1 className=" counter text-center" datatarget="18">
+            {/* <i className="fas fa-mug-hot fa-2x mug d-flex justify-content-center"></i> */}
+            <i class="fa fa-thumbs-up fa-2x mug d-flex justify-content-center" aria-hidden="true"></i>
+            <h6 className=" counter text-center" datatarget="18">
             0
-            </h1>
+            </h6>
             <hr className="w-25 mx-auto"></hr>
-            <h2 className="text-center">EFFECTS</h2>
+            <h5 className="text-center">EFFECT</h5>
             <hr className="w-25 mx-auto"></hr>
           </div>
         </div>
@@ -209,14 +210,14 @@ const torerender=()=>{
               })}
             </div>
           </div>
-          <div className="appear super">
+          {/* <div className="appear super">
             <div className="col-xxl-12 text-center my-5">
               <button className="btn btn-outline-info" onClick={Viewmore}>
                 check more
               </button>
             </div>
-          </div>
-          {view === "" ? null : (
+          </div> */}
+          {/* {view === "" ? null : (
             <>
               <div className="col-10 mx-auto">
                 <div className="row gy-4 ">
@@ -242,11 +243,9 @@ const torerender=()=>{
                   </button>
                 </div>
               </div>
-              {/* {view==="More"?superb.classList.add("disable"):
-           null}
-            {view===""? superb.classList.remove("disable"):null} */}
-            </>
-          )}
+           
+            </> )}*/}
+      
         </div>
       </div>
     </>

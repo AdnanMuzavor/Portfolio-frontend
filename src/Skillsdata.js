@@ -17,27 +17,27 @@ import skill14 from "../src/Images/skill14.png";
 import skill15 from "../src/Images/skill15.jpg";
 
 const Skills = [
-  { title: "Front End Web Development", content: "briefly about skills", img: skill1,progress:90 },
+  { title: "Web Dev.", content: "briefly about skills", img: skill1,progress:90 },
 
   { title: "HTML", content: "briefly about skills", img: skill2,progress:90 },
 
   { title: "CSS", content: "briefly about skills", img: skill3 ,progress:70},
 
-  { title: "Java Script", content: "briefly about skills", img: skill4 ,progress:80},
+  { title: "JS", content: "briefly about skills", img: skill4 ,progress:80},
 
   { title: "React.js", content: "briefly about skills", img: skill5,progress:80 },
 
   { title: "Bootstrap", content: "briefly about skills", img: skill6 ,progress:80},
 
-  { title: "C(programming language)", content: "briefly about skills", img: skill7,progress:60 },
+  { title: "C", content: "briefly about skills", img: skill7,progress:60 },
 
-  { title: "Cpp(programming language)", content: "briefly about skills", img: skill8,progress:50},
+  { title: "Cpp", content: "briefly about skills", img: skill8,progress:50},
 
 
 
   { title: "Mongodb", content: "briefly about skills", img: skill10,progress:70 },
 
-  { title: "Poetry Writing", content: "briefly about skills", img: skill9,progress:70 },
+  { title: "Poet", content: "briefly about skills", img: skill9,progress:70 },
 
   { title: "Mongoose", content: "briefly about skills", img: skill11,progress:70 },
 
@@ -45,8 +45,9 @@ const Skills = [
 
   { title: "Express.js", content: "briefly about skills", img: skill13,progress:70 },  
 
-  { title: "MERN Stack", content: "briefly about skills", img: skill14,progress:70 },
+  { title: "MERN", content: "briefly about skills", img: skill14,progress:70 },
 
+  { title: "npm", content: "briefly about skills", img: skill15,progress:70 },
   { title: "npm", content: "briefly about skills", img: skill15,progress:70 },
 ];
 

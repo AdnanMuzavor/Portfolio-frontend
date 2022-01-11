@@ -26,11 +26,11 @@ function Navbar() {
                   <span className="navbar-toggler-icon"></span>
                 </button>
                 <div
-                  className="collapse navbar-collapse"
+                  className="collapse navbar-collapse ms-auto"
                   id="navbarSupportedContent"
                 >
                 
-                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0 ms-auto">
                     <li className="nav-item">
                       <NavLink
                        exact activeClassName="menu_active"

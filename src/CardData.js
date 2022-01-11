@@ -53,6 +53,44 @@ const CardData=[
         contenttxt:"It's an react app which allows you to make list of things you want to do, this list can be deleted later",
         link:"https://github.com/AdnanMuzavor/Todolist-React-App",
     },
+    {
+        imgsrc:proj7,
+        titletxt:"Google-Clone-App",
+        contenttxt:"It's a google keep clone app made by using Java Script such that each task container is render dynamically.",
+        link:"https://github.com/AdnanMuzavor/Google-Keep-Clone",
+    },
+    {
+        imgsrc:proj8,
+        titletxt:"API-Based-Joke-Website",
+        contenttxt:"It's a Joke displaying website which on clicking button fetches each time new joke and displays it.",
+        link:"https://github.com/AdnanMuzavor/Coding-Blog-Website",
+    
+    },
+    {
+        imgsrc:proj9,
+        titletxt:"Fully-Designed-Music-Player",
+        contenttxt:"It's a fully designed music player such that all it's controls are written with Java Script rather thn using directly from HTML",
+        link:"https://github.com/AdnanMuzavor/Tic-Tac-To-React-App",
+    },
+    {
+        imgsrc:react1,
+        titletxt:"API-Based-Weather-Forcast",
+        contenttxt:"It's a simple yet decent web app displaying weather of city you enter in serach bar.",
+        link:"https://github.com/AdnanMuzavor/Poetic-Page-Project",
+    },
+    {
+        imgsrc:proj11,
+        titletxt:"On-Click-Effect",
+        contenttxt:"It's a special effect where on clicking the image, it larger version pops out from center of the screen.",
+        link:"https://github.com/AdnanMuzavor/Counter-react-app",
+    
+    },
+    {
+        imgsrc:proj12,
+        titletxt:"Temperature-Converter",
+        contenttxt:"It's a temperature converter which converts degree celcius to fahrenheit and vice versa",
+        link:"https://github.com/AdnanMuzavor/Todolist-React-App",
+    },
 ];
 
 const Moredata=  [  {

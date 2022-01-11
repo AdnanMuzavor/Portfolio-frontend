@@ -12,11 +12,13 @@ const FilterMenu = (props) => {
         <div className="menu-tab d-flex justify-content-around"> */}
           {props.catitems.map((ele,indx) => {
             return (
-              <div className=" text-center col-md-3 col-lg-3 col-5 ">
-                <button className="btn ele btn-block "key={indx} onClick={()=>props.FilterGallery(ele)} >
-                  <h3 className="display">{ele}</h3>
+              <>
+           
+                <button className="btn ms-2 btn-get-started text-center col-md-1 col-lg-1 col-4 mt-2 "key={indx} onClick={()=>props.FilterGallery(ele)} >
+              {ele}
                 </button>
-              </div>
+              
+              </>
             );
           })}
         {/* </div>
